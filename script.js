@@ -8,11 +8,11 @@ $(document).ready(function() {
 
     var scroll = $(window).scrollTop();
 
-    var objectSelect = $('#content');
+    var object = $('#content');
 
-    var objectPosition = objectSelect.offset().top;
+    var position = object.offset().top;
 
-    if (scroll > objectPosition) {
+    if (scroll > position) {
       $('#navbar').css('top', '0');
       $('#navbar').css('opacity', '0.8');
       $('#content').css('animation-name', 'fade-in-bottom');
