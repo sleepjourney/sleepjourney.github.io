@@ -1,0 +1,250 @@
+html {
+  min-height: 100%;
+  background: linear-gradient(180deg, #040405 0%, #262432 30%, #48445F 90%, #E7D2CB 100%);
+}
+
+body {
+  margin: 0;
+}
+
+#title {
+  text-align: center;
+  animation-name: appear;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  padding-top: 28vh;
+}
+
+#intro {
+  text-align: center;
+  margin: auto;
+  opacity: 0;
+  animation-name: appear;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  width: 70%;
+  height: auto;
+}
+
+#landing {
+  width: 100%;
+}
+
+#outro {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  height: auto;
+}
+
+#end-line {
+  width: 80%;
+  margin-bottom: 5vh;
+}
+
+#content {
+  width: 100%;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 5.5vh;
+  transition: 0.5s;
+  background-color: #040405;
+  box-shadow: 0.01em 0.01em 1em 0.01em #262630;
+  color: #dfdfe6;
+  text-align: center;
+  font-family: 'Raleway Dots';
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-top: 2vh;
+  z-index: 1;
+  letter-spacing: 0.03em;
+}
+
+
+.spacer {
+  height: 28vh;
+}
+
+
+#time-1 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  line-height: 190%;
+  color: #b6b6cc;
+  padding-bottom: 12vh;
+}
+
+#time-2 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  line-height: 190%;
+  color: #b6b6cc;
+  padding-bottom: 12vh;
+}
+
+#time-3 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  line-height: 190%;
+  color: #b6b6cc;
+  padding-bottom: 12vh;
+}
+
+#time-4 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  line-height: 190%;
+  color: #b6b6cc;
+  padding-bottom: 12vh;
+}
+
+#moon {
+  width: 8%;
+  height: 8%;
+}
+
+h1 {
+  font-family: 'Raleway Dots';
+  font-size: 5em;
+  font-weight: 400;
+  color: #dfdfe6;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #b6b6cc;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-family: 'Raleway Dots';
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #dfdfe6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: 'Raleway';
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #040405;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+b {
+  font-family: 'Raleway';
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #e7d2cb;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 0.05em solid #b6b6cc;
+  border-bottom: 0em;
+  border-left: 0em;
+  border-right: 0em;
+}
+
+p {
+  font-family: 'Raleway';
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.main-list {
+  list-style-type: none;
+  font-family: 'Raleway';
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.main-point {
+  background-image: url("main_point.svg");
+  background-size: 0.8em;
+  background-repeat: no-repeat;
+  background-position: 0 0.45em;
+  margin-bottom: 0.8em;
+  padding-left: 1.8em;
+}
+
+.sub-list {
+  list-style-type: none;
+  font-size: 0.98em;
+}
+
+.sub-point-1 {
+  background-image: url("sub_point_1.svg");
+  background-size: 0.9em;
+  background-repeat: no-repeat;
+  background-position: 0 0.55em;
+  margin-bottom: 0.8em;
+  padding-left: 1.8em;
+}
+
+.sub-point-2 {
+  background-image: url("sub_point_2.svg");
+  background-size: 0.8em;
+  background-repeat: no-repeat;
+  background-position: 0 0.38em;
+  margin-bottom: 0.8em;
+  padding-left: 1.8em;
+}
+
+.sub-point-3 {
+  background-image: url("sub_point_3.svg");
+  background-size: 0.9em;
+  background-repeat: no-repeat;
+  background-position: 0 0.38em;
+  margin-bottom: 0.8em;
+  padding-left: 1.8em;
+}
+
+.sub-point-4 {
+  background-image: url("sub_point_4.svg");
+  background-size: 0.8em;
+  background-repeat: no-repeat;
+  background-position: 0 0.65em;
+  margin-bottom: 0.8em;
+  padding-left: 1.8em;
+}
+
+.bold {
+  color: #dfdfe6;
+}
+
+@keyframes appear {
+  from {opacity: 0.0}
+  to {opacity: 1.0}
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
